@@ -1,11 +1,18 @@
 # Hangman
 Hangman.
 
+Proiect realizat de Bălănean Mihai-Cristian
+
 Instructiuni de rulare:
   python hangman.py \
   --input cuvinte_de_verificat.csv \
   --output date_iesire.csv \
   --dict dictionar_mijloc.txt
+
+'hangman.py' - fisierul sursa
+'cuvinte_de_verificat.csv' - fisierul .csv folosit pentru testing
+'date_iesire.csv' - fisierul ce contine datele de iesire cerute
+'dictionar_mijloc.txt' - dictionarul folosit pentru imbunatatirea eficentei programului - rezulta in 1098 de incercari totale pe fisierul 'cuvinte_de_verificat.csv'
 
 Observatii:
 
